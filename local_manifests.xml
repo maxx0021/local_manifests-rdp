@@ -4,20 +4,17 @@
            fetch="https://github.com/mi-msm8937"
            revision="lineage-18.1" />
 
-  <remote  name="mi-sdm439"
-           fetch="https://github.com/mi-sdm439"
-           revision="lineage-18.1" />
-
   <remote  name="mi-thorium"
            fetch="https://github.com/Mi-Thorium"
            revision="a13/master" />
         
-    <remote  name="Maxx12211"
-           fetch="https://github.com/Maxx12211"
-           revision="a13/rom/banana" />
-    <remote name="LineageOS" 
+  <remote  name="Maxx12211"
+           fetch="https://github.com/Maxx12211" />
+ 
+  <remote name="LineageOS" 
            fetch="https://github.com/LineageOS"/>
- <!-- Extras -->
+ 
+  <!-- Extras -->
   <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="mi-sdm439" revision="lineage-18.1"/>
   <project path="vendor/qcom/opensource/libfmjni" name="android_vendor_qcom_opensource_libfmjni" remote="LineageOS" revision="lineage-18.1"/>
 
@@ -28,31 +25,20 @@
   <project path="vendor/xiaomi/mithorium-common" name="proprietary_vendor_xiaomi_mithorium-common" groups="device" remote="mi-thorium" revision="a12/master"/>
   <project path="vendor/xiaomi/mithorium-common-graphics" name="proprietary_vendor_xiaomi_mithorium-common-graphics" groups="device" remote="mi-thorium" revision="a11/master"/>
 
- <!-- Common - Kernel 4.19 -->
-  <project path="vendor/xiaomi/mithorium-common-4.19" name="proprietary_vendor_xiaomi_mithorium-common-4.19" groups="device" remote="mi-thorium" revision="a12/master"/>
 
  <!-- Hardware -->
   <project path="hardware/mithorium-4.9"  name="android_hardware_mithorium-4.9"  groups="device" remote="mi-thorium" revision="lineage-19.1-k4.9"/>
-  <project path="hardware/mithorium-4.19" name="android_hardware_mithorium-4.19" groups="device" remote="mi-thorium" revision="lineage-19.1-LA.UM.9.6.3.r1-06200-89xx.0"/>
   <project path="hardware/mithorium-4.9-q-display"  name="android_hardware_mithorium-4.9"  groups="device" remote="mi-thorium" revision="lineage-19.1-k4.9-q-display"/>
-  <project path="hardware/mithorium-4.19-q-display" name="android_hardware_mithorium-4.19" groups="device" remote="mi-thorium" revision="lineage-19.1-LA.UM.9.6.3.r1-06200-89xx.0-q-display"/>
-
- <!-- MiThoriumSSI -->
-  <project path="device/xiaomi/MiThoriumSSI" name="android_device_xiaomi_MiThoriumSSI" groups="device" remote="mi-thorium"/>
 
  <!-- Kernel for Mi8937 & Tiare -->
   <project path="kernel/xiaomi/msm8937" name="android_kernel_xiaomi_msm8937" remote="mi-msm8937" revision="a13/master"/>
 
  <!-- Mi8937 -->
-  <project path="device/xiaomi/Mi8937"        name="android_device_xiaomi_Mi8937"        groups="device" remote="Maxx12211"/>
+  <project path="device/xiaomi/Mi8937"        name="android_device_xiaomi_Mi8937"        groups="device" remote="Maxx12211" revision="a13/rom/cherish" />
   <project path="vendor/xiaomi/Mi8937"        name="proprietary_vendor_xiaomi_Mi8937"    groups="device" remote="mi-thorium" revision="a11/master"/>
   <project path="vendor/xiaomi/Mi8937-2"      name="proprietary_vendor_xiaomi_Mi8937-2"  groups="device" remote="mi-thorium" revision="a11/master"/>
   <project path="device/xiaomi/land-camera"   name="android_device_xiaomi_land-camera"   groups="device" remote="mi-thorium" revision="sairam/a13/master"/>
   <project path="device/xiaomi/mi8937-camera" name="android_device_xiaomi_mi8937-camera" groups="device" remote="mi-thorium"/>
-
- <!-- Mi8937 - Kernel 4.19 -->
-  <project path="device/xiaomi/Mi8937_4_19" name="android_device_xiaomi_Mi8937_4_19" groups="device" remote="mi-thorium" revision="a11/master"/>
-  <project path="vendor/xiaomi/Mi8937_4_19" name="proprietary_vendor_xiaomi_Mi8937"  groups="device" remote="mi-thorium" revision="k4.19/a11/master"/>
 
 
 </manifest>
