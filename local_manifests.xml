@@ -25,7 +25,7 @@
  <!-- Replacements -->
 
  <!-- Common -->
-  <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common"     groups="device" remote="maxx0021" revision="a13/rom/cherish" />
+  <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common"     groups="device" remote="maxx0021" revision="a13/master" />
   <project path="vendor/xiaomi/mithorium-common" name="proprietary_vendor_xiaomi_mithorium-common" groups="device" remote="mi-thorium" revision="a12/master"/>
   <project path="vendor/xiaomi/mithorium-common-graphics" name="proprietary_vendor_xiaomi_mithorium-common-graphics" groups="device" remote="mi-thorium" revision="a11/master"/>
 
@@ -38,7 +38,7 @@
   <project path="kernel/xiaomi/msm8937" name="android_kernel_xiaomi_msm8937" remote="mi-msm8937" revision="a13/master"/>
 
  <!-- Mi8937 -->
-  <project path="device/xiaomi/Mi8937"        name="android_device_xiaomi_Mi8937"        groups="device" remote="maxx0021" revision="a13/rom/cherish" />
+  <project path="device/xiaomi/Mi8937"        name="android_device_xiaomi_Mi8937"        groups="device" remote="maxx0021" revision="a13/master" />
   <project path="vendor/xiaomi/Mi8937"        name="proprietary_vendor_xiaomi_Mi8937"    groups="device" remote="mi-thorium" revision="a11/master"/>
   <project path="vendor/xiaomi/Mi8937-2"      name="proprietary_vendor_xiaomi_Mi8937-2"  groups="device" remote="mi-thorium" revision="a11/master"/>
   <project path="device/xiaomi/land-camera"   name="android_device_xiaomi_land-camera"   groups="device" remote="mi-thorium" revision="sairam/a13/master"/>
